@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { RandomButton } from 'components/RandomButton';
 import axios from 'axios';
-import { ListFacts } from 'components/ListFacts';
+import { RandomButton, ListFacts } from './components';
 
 const App: React.FC = () => {
   const [facts, setFacts] = useState<string[]>([]);
